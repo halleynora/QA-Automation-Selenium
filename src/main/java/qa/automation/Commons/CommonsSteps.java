@@ -1,4 +1,6 @@
-package qa.automation.Commons;
+package qa.automation.commons;
 
-public class CommonsSteps {
+import qa.automation.util.SpringContextConfiguration;
+
+public class CommonsSteps extends SpringContextConfiguration {
 }

@@ -1,4 +1,4 @@
-package qa.automation.Commons;
+package qa.automation.commons;
 
 public interface CommonsActions {
 }

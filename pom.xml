@@ -166,7 +166,7 @@
                             <glue>
                                 <package>studyblue.qa.automation</package>
                             </glue>
-                            <featuresDirectory>src/main/resources/features</featuresDirectory>
+                            <featuresDirectory>src/main/resources/cucmberfeatures</featuresDirectory>
                             <cucumberOutputDir>target</cucumberOutputDir>
                             <plugins>
                                 <plugin>
