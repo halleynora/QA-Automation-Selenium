@@ -10,6 +10,55 @@ public class DataProvider {
 
     private String pathToChrome;
 
+    private String akiliURL;
+
+    private String teacherInvite;
+
+    private String deleteTeacherEngpoint;
+
+    private String akiliTestEmail;
+
+    private String akiliTestPassword;
+
+    public String getAkiliTestPassword() {
+        return akiliTestPassword;
+    }
+
+    public void setAkiliTestPassword(String akiliTestPassword) {
+        this.akiliTestPassword = akiliTestPassword;
+    }
+
+    public String getAkiliTestEmail() {
+        return akiliTestEmail;
+    }
+
+    public void setAkiliTestEmail(String akiliTestEmail) {
+        this.akiliTestEmail = akiliTestEmail;
+    }
+
+    public String getAkiliURL() {
+        return akiliURL;
+    }
+
+    public void setAkiliURL(String akiliURL) {
+        this.akiliURL = akiliURL;
+    }
+
+    public String getDeleteTeacherEngpoint() {
+        return deleteTeacherEngpoint;
+    }
+
+    public void setDeleteTeacherEngpoint(String deleteTeacherEngpoint) {
+        this.deleteTeacherEngpoint = deleteTeacherEngpoint;
+    }
+
+    public String getTeacherInvite() {
+        return teacherInvite;
+    }
+
+    public void setTeacherInvite(String teacherInvite) {
+        this.teacherInvite = teacherInvite;
+    }
 
     public String getBrowser() {
         return browser;

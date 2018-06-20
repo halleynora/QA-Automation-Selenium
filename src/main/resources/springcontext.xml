@@ -57,10 +57,16 @@
         <property name="browser" value="${selenium.driver.browser.name}"/>
         <property name="whereToRun" value="${selenium.driver.location}" />
         <property name="pathToChrome" value="${selenium.driver.path.chrome}" />
+        <property name="akiliURL" value="${akili.url}"/>
+        <property name="teacherInvite" value="${akili.teacher.invite.endpoint}"/>
+        <property name="deleteTeacherEngpoint" value="${akili.delete.teacher.endpoint}"/>
+        <property name="akiliTestEmail" value="${akili.test.email}" />
+        <property name="akiliTestPassword" value="${akili.test.password}"/>
     </bean>
 
 
 
     <bean id="commonsActions" class="qa.automation.commons.impl.CommonsActionsImpl"/>
+    <bean id="accountActions" class="qa.automation.account.impl.AccountActionsImpl"/>
 
 </beans>
